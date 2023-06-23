@@ -3,7 +3,6 @@
 <head>
   <title>Basic Calculator</title>
   <link rel="stylesheet" href="./style.css">
-  <script src="./script.mjs"></script>
 </head>
 <body>
   <div class="container">
@@ -11,10 +10,11 @@
     <div class="calculator">
       <input type="number" id="num1" placeholder="Enter number 1" required>
       <input type="number" id="num2" placeholder="Enter number 2" required>
-      <button onclick="calculate()">Calculate</button>
+      <button id="calculateButton">Calculate</button>
       <div class="result" id="result"></div>
       <div class="error" id="error"></div>
     </div>
   </div>
+  <script src="./script.mjs"></script>
 </body>
 </html>
